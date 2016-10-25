@@ -1,0 +1,116 @@
+body {
+	background:#FFFFFF;
+	font-family: "RobotoDraft",sans-serif;
+	font-size:12px;
+	height:100%;
+	margin: 0px;
+}
+
+#contenedor {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* Estilo del contenido*/
+#contenido{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+    fieldset.grupos{
+      border: solid 10px;
+      margin-bottom: 20px;
+      padding-bottom: 25px;
+      padding-top: -10px;
+      border-radius: 0px 40px 0px 40px;
+     box-shadow: 10px 10px 50px -7px rgba(0,0,0,0.75);
+    }
+
+    fieldset legend{
+      margin-bottom:0px;
+      padding: 10px;
+	  padding-left: 30px;
+	  padding-right: 30px;
+      background: #fff;
+	  text-decoration: none;
+      font-size:25px;
+	  font-weight: bold;
+      border: solid 3px;
+      border-radius: 0px 20px 0px 20px;
+    }
+/*Tamaño de las imagenes que se verán*/
+	fieldset.grupos img{
+		width: 150px;
+		height: 150px;
+	}
+    
+    fieldset legend a{
+      text-decoration: none;
+      font-size:25px;
+      font-weight: bold;
+      margin-bottom:0px;
+      color: #000;
+    }
+  
+    fieldset.grupos div{
+      margin: 20px;
+      width: 150px;
+      height: 150px;
+      padding:0px;
+      float:left;
+      text-align: center;
+      margin-left: 23px;
+      margin-right: 23px;
+    }
+    
+	/*Seccion de Mis Actividades*/
+  #misactividades{
+  	  border-color: #00CB2C;
+  }
+    
+  #misactividades legend{
+			 text-decoration: none;
+			  font-size:25px;
+			  font-weight: bold;
+			  margin-bottom:0px;
+			  color: #000;
+			  		background: #00CB2C;
+		border-color: #00CB2C; 
+  }
+  
+
+		
+	#misactividades div a{
+		text-decoration: none;
+		font-weight: bold;
+		margin-bottom:0px;
+		color: #00CB2C; 
+	}
+	
+  #misactividades input{
+    width: 150%;
+  }
+  /*Info del Perfil*/
+  #perfil {
+    padding:20px;
+    margin-left:auto;
+	font-size : 18px;
+	font-weight: bold;
+	text-align: center;
+  }
+  
+  #popC{
+		position:absolute;
+		background-image: url(../img/transparente.png);
+		text-align: left;
+		z-index:101;
+		border-radius: 3px;
+		box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+		transition: 0.4s ease-out;
+		opacity: 1;
+		top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+		left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+		margin-top: -200px; /* Restamos la mitad de la altura del objeto con un margin-top */
+		margin-left: -300px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+	}
+	

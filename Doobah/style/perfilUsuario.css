@@ -1,0 +1,27 @@
+
+	/*Seccion de Perfil*/
+  #perfil{
+  	  border-color: #DC143C;
+  }
+    
+  #perfil legend{
+    background: #DC143C;
+	border-color: #DC143C;
+  }
+  
+  #perfil div a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom:0px;
+    color: #000; 
+	font-size: 15px;
+  }
+ 
+	#informacionUser{
+		float:left;
+		width:250px;
+	}
+  
+   #informacionUser #gruposUser{
+		margin-left:50px;
+	}

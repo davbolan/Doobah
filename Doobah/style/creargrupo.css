@@ -1,0 +1,25 @@
+/*Seccion de crear grupos*/
+  #crear_grupos{
+  	  border-color: #0074AE;
+  }
+    
+  #crear_grupos legend{
+    background: #0074AE;
+	border-color: #0074AE;
+  }
+  
+  #crear_grupos div a{
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom:0px;
+    color: #000; 
+  }
+  #crear_grupos input{
+   width: 100%
+  }
+  #crear_grupos #fotoprin{
+   width: 20px;
+  }
+  #crear_grupos #publico{
+   width: 20px;
+  }

@@ -1,0 +1,194 @@
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../img/Background/door-minimalistic.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+body {
+	font-family: "RobotoDraft",sans-serif;
+	font-size:12px;
+}
+
+.splash {
+	float: left;
+	margin-left: 50px;
+	z-index: 5;
+}
+.DataForm {
+	border: solid 10px;
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	border-radius: 0px 40px 0px 40px;
+	box-shadow: 10px 10px 50px -7px rgba(0, 0, 0, 0.75);
+	width: 200px;
+	height: 350px;
+	vertical-align: sub;
+	clear: left;
+	float: left;
+	margin-left: 50px;
+	color: #0074AE;
+	border-color: #0074AE;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+h2 {
+	color: #66C;
+	text-align: center;
+}
+.mainButton {
+	text-decoration: none;
+	width: 150px;
+	border: none;
+	border-radius: 11px;
+	font-weight: bold;
+	color: #f4f7f7;
+	background: #3c60d6;
+	box-shadow: 0px 0px 2px #bababa;
+	margin-top: 15px;
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-right: 7px;
+	padding-bottom: 10px;
+	padding-left: 7px;/*Lo siguiente centra el botón en el Div*/	/*position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);*/
+}
+.divTable {
+	display: table;
+	width: auto;
+	border-spacing: 5px;/*cellspacing:poor IE support for  this*/
+}
+.divRow {
+	display: table-row;
+	width: auto;
+	clear: both;
+}
+.divCell {
+	float: left;/*fix for  buggy browsers*/
+	display: table-column;
+	width: 150px;/*background-color:#ccc;*/
+}
+a {
+	color: #66C;
+}
+a:visited {
+	color: #66C;
+}
+
+[data-tooltip],
+a.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+
+[data-tooltip]:before,
+[data-tooltip]:after,
+a.tooltip:before,
+a.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: 
+	  opacity 0.2s ease-in-out,
+		visibility 0.2s ease-in-out,
+		-webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+	-moz-transition:    
+		opacity 0.2s ease-in-out,
+		visibility 0.2s ease-in-out,
+		-moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+	transition:         
+		opacity 0.2s ease-in-out,
+		visibility 0.2s ease-in-out,
+		transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+}
+
+/* Show the entire tooltip on hover and focus */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+a.tooltip:hover:before,
+a.tooltip:hover:after,
+a.tooltip:focus:before,
+a.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* Base styles for the tooltip's directional arrow */
+a.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+}
+
+/* Base styles for the tooltip's content area */
+a.tooltip:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 160px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+
+/* Right */
+a.tooltip-right:before,
+a.tooltip-right:after {
+  bottom: 50%;
+  left: 100%;
+}
+
+a.tooltip-right:before {
+  margin-bottom: 0;
+  margin-left: -12px;
+  border-top-color: transparent;
+  border-right-color: #000;
+  border-right-color: hsla(0, 0%, 20%, 0.9);
+}
+
+a.tooltip-right:hover:before,
+a.tooltip-right:hover:after,
+a.tooltip-right:focus:before,
+a.tooltip-right:focus:after {
+  -webkit-transform: translateX(12px);
+  -moz-transform:    translateX(12px);
+  transform:         translateX(12px); 
+}
+
+/* Move directional arrows down a bit for left/right tooltips */
+a.tooltip-right:before {
+  top: 3px;
+}
+
+/* Vertically center tooltip content for left/right tooltips */
+a.tooltip-right:after {
+  margin-left: 0;
+  margin-bottom: -16px;
+}
+
+.label_incorrecto{
+	color: #ff0000;
+}

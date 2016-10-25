@@ -1,0 +1,186 @@
+body {
+	background:#FFFFFF;
+	font-family: "RobotoDraft",sans-serif;
+	font-size:12px;
+	height:100%;
+	margin: 0px;
+	
+}
+
+#contenedor {
+	width: 1024px;
+	margin: 0 auto;
+	  
+	  
+}
+
+/* Estilo del contenido*/
+#contenido{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+	/* Estilo de las distintas disiones de grupos*/
+    fieldset.grupos{
+      border: solid 10px;
+      margin-bottom: 20px;
+      padding-bottom: 25px;
+      padding-top: -10px;
+      border-radius: 0px 40px 0px 40px;
+     box-shadow: 10px 10px 50px -7px rgba(0,0,0,0.75);
+    }
+	
+					/* Los enlaces a los grupos son de bloque*/
+		fieldset.grupos a{
+			display: block;	
+			height: 30px;
+		}
+	
+		fieldset.grupos div a:first-child{
+			display: block;			
+			height:153px;			
+		}
+		
+		/*Tamaño de las imagenes que se verán para los grupos*/
+		fieldset.grupos img{
+			width: 150px;
+			height: 150px;
+		}
+		
+		/* Estilo del titulo de las distintas divisiones*/
+		fieldset legend{
+		  margin-bottom:0px;
+		  padding: 10px;
+		  padding-left: 30px;
+		  padding-right: 30px;
+		  background: #fff;
+		  text-decoration: none;
+		  font-size:25px;
+		  font-weight: bold;
+		  border: solid 3px;
+		  border-radius: 0px 20px 0px 20px;
+		}
+   
+			fieldset legend a{
+			  text-decoration: none;
+			  font-size:25px;
+			  font-weight: bold;
+			  margin-bottom:0px;
+			  color: #000;
+			}
+		
+		/* Estilo de cada grupo individual (imagen y titulo)*/
+		fieldset.grupos div{
+		  margin: 20px;
+		  width: 150px;
+		  height: 150px;
+		  padding:0px;
+		  float:left;
+		  text-align: center;
+		  margin-left: 23px;
+		  margin-right: 23px;
+		}
+		
+			fieldset.grupos div a{
+				font-size: 13px;
+			}
+    
+	/*Cada sección de grupos tendra un color distinto para para el borde, fondo y leyenda*/
+	#usuarios{
+		border-color: #0074AE;
+	}
+    
+		#usuarios legend{
+			background: #0074AE;
+			border-color: #0074AE;
+		}
+  
+		#usuarios div a{
+			text-decoration: none;
+			font-weight: bold;
+			margin-bottom:0px;
+			color: #0074AE; 
+		}
+
+	#grupo{
+		border-color: #E69A00;
+	}
+  
+		#grupo legend{
+			background: #E69A00;
+			border-color: #E69A00;
+		}  
+	  
+		#grupo div a{
+			text-decoration: none;
+			font-weight: bold;
+			margin-bottom:0px;
+			color: #E69A00; 
+		}  
+  
+  
+	#actividades1{
+		border-color: #00CB2C; 
+	}
+	  
+		#actividades1 legend{
+			background: #00CB2C;
+			border-color: #00CB2C; 
+		}
+
+		#actividades1 div a{
+			text-decoration: none;
+			font-weight: bold;
+			margin-bottom:0px;
+			color: #00CB2C; 
+		} 
+		
+		
+	#anunciantes{
+		border-color: #0DFFAA; 
+	}
+	  
+		#anunciantes legend{
+			background: #0DFFAA;
+			border-color: #0DFFAA; 
+		}
+
+		#anunciantes div a{
+			text-decoration: none;
+			font-weight: bold;
+			margin-bottom:0px;
+			color: #0DFFAA; 
+		} 
+  
+	/* Estilo del botón ver más, que llevará a una página más especifica*/
+    button.botonVerMas{
+		text-decoration:none;
+		padding: 10px 7px; 
+		width: 150px;
+		border:none; 
+		border-radius: 11px;
+		color:#f4f7f7; 
+		background:#3c60d6; 
+		box-shadow:0px 0px 2px #bababa; 
+		/*Lo siguiente centra el botón en el Div*/
+		position: relative;
+		top:50%;
+		transform: translate(0%, -50%);
+    }
+	
+	#popC{
+		position:absolute;
+		background-image: url(../img/transparente.png);
+		text-align: left;
+		z-index:101;
+		border-radius: 3px;
+		box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+		transition: 0.4s ease-out;
+		opacity: 1;
+		top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+		left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+		margin-top: -200px; /* Restamos la mitad de la altura del objeto con un margin-top */
+		margin-left: -300px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+	}
+	
+	

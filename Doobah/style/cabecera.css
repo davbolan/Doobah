@@ -1,0 +1,121 @@
+body {
+	background:#FFFFFF;
+	font-family: "RobotoDraft",sans-serif;
+	font-size:12px;
+	height:100%;
+	margin: 0px;
+}
+
+#contenedor {
+	width:1024px;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 200px;
+
+}
+
+/* Estilo de la fila de las fotos*/
+#filaFotos{
+	padding: 10px;
+	height: 70px;
+	background-color: rgb(255,255,255);/**rgb(40, 167, 227);**/
+}
+
+.fotogr{
+	/**vertical-align: top;**/
+	margin: 0px 0px 0px 1px;
+	width: 70px; 
+	height: 70px;
+}
+
+.fotocolor{
+/**vertical-align: top;**/
+margin: 0px 0px 0px 1px;
+width: 50px; 
+height: 70px;
+
+}
+
+
+#logo {
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	float: left;
+}
+
+#busqueda {
+	margin: 0px;
+	margin-top: 40px;
+	margin-left: 90px;
+	padding: 0px;
+	float: left;	
+}
+
+#busqueda p{
+	color: blue;
+	font-weight: bold;
+	cursor:pointer;
+}
+#lupa{
+	margin: 0 px;
+	margin-bottom: 5px;
+}
+
+#lupa input[type="text"] {
+	border-radius: 5px;
+	width: 320px;
+	height: 30px;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 0px 0px 4px;
+	background-color: #FFFFFF;
+	font-size: 0.8em;
+}
+#lupa input[type="submit"] {
+	position: relative;
+	top:11px;
+	right:40px;
+	height: 28px;
+	width: 28px;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0) url("../img/lupa.png") no-repeat;
+	background-size: 24px 24px;
+	border: 0px;
+	box-shadow: none;
+}
+
+#usuario {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	max-width:80px;
+	margin-left: 110px;
+}
+
+#usuario img{	
+	margin: 0px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	height: 70px;
+	width: 70px;
+}
+
+a#nombre, a#sesion, a#sesion:visited, a#nombre:visited{
+	color: blue;
+}
+
+#usuario p{
+	margin:0;
+	text-align:center;
+}
+#usuario a#nombre,  a#sesion{
+	text-decoration: none;
+	margin: 0px;
+
+}
+
+
+

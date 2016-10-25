@@ -1,0 +1,23 @@
+/*Seccion de crear grupos*/
+  #crear_actividad{
+  	  border-color: #00CB2C;
+  }
+    
+  #crear_actividad legend{
+    background: #00CB2C;
+	border-color: #00CB2C;
+  }
+  
+  #crear_actividad div a{
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom:0px;
+    color: #000; 
+  }
+  #crear_actividad input[type="text"], input[type="file"]{
+	width: 100%;
+  }
+  
+  #crear_actividad #fotoprin{
+   width: 20px;
+  }

@@ -1,0 +1,172 @@
+body {
+	background:#FFFFFF;
+	font-family: "RobotoDraft",sans-serif;
+	font-size:12px;
+	height:100%;
+	margin: 0px;
+}
+
+#contenedor {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* Estilo del contenido*/
+#contenido{
+  margin-bottom: 40px;
+}
+
+/* Estilo general de los popups*/
+#fieldsetPopup{
+    border: solid 3px;
+    border-radius: 0px 20px 0px 20px;
+	max-width: 562px;
+	height: 430px;	
+	/*margin-top: 100px;
+	margin-left: 200px;*/
+	background-color:#ffffff;
+	position:fixed;
+
+}
+
+/* Posicionamiento del icono de cerrar */
+#closePopUp{
+	margin-left: 525px;
+	margin-top: -50px;
+}
+
+.boton-azul{
+	text-decoration:none;
+	padding: 10px 7px; 
+	width: 150px;
+	border:none; 
+	border-radius: 11px;
+	color:#f4f7f7; 
+	background:#3c60d6; 
+	box-shadow:0px 0px 2px #bababa; 
+}
+
+#fieldsetPopup legend{
+			margin-bottom:0px;
+			padding: 10px;
+			padding-left: 30px;
+			padding-right: 30px;
+			background: #fff;
+			text-decoration: none;
+			font-size:25px;
+			font-weight: bold;
+			border: solid 3px;
+			border-radius: 0px 20px 0px 20px;
+
+}
+
+/* Estilos correspondientes a los campos de contacto*/
+#formContacto{
+	margin: 10px 100px;
+}
+
+#nombre, #email,  #opinion{
+	display: block;
+} 
+
+#motivos{
+	margin-bottom: 10px;
+}
+
+#opinion{
+	resize: none; 
+	height:80px;
+	margin-top: none;
+	margin-bottom: 10px;
+}
+
+.msgError{
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	color: red;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/* Estilos correspondientes a "sobre nosotros"*/
+#sobreNosotros{
+	margin: 10px 100px;
+}
+
+#logoFDI{
+	width: 141px;
+	height: 54px;
+	margin-left: 110px;;
+}
+
+/* Estilos correspondientes a la busqueda avanzada*/
+div.opciones{
+	margin-left: 30px;
+}
+
+div#buscarPorNombre{
+	margin-bottom: 20px;
+}
+
+div#busquedaAvanzada{
+	width: 400px;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+.apartados{
+	margin-top: 13px;
+	margin-bottom: 3px;
+	margin-left: 10px;
+}
+div#busquedaAvanzada .titulos-grandes{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.titulos{
+	font-weight: bold;
+	font-size: 13px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+div#tematica .taxonomias{
+	width: 130px;
+	margin-top:5px;
+}
+
+input .texto{
+	margin-top:5px;
+}
+
+#realizarBusqueda{
+	margin-left: 20px;
+	margin-top: 21px;
+}
+
+/* Estilo del popup de Política de Cookies*/
+
+#politicaCookies{
+	margin: 10px 100px;
+	margin-right: 75px;
+	overflow-y: scroll;
+	padding-right: 25px;
+	height: 350px;
+}
+
+	
+.overlay-container {
+		position:fixed;
+		opacity:0.75;
+		height: 100%;
+		z-index:100;
+		top:0px;
+		bottom:0px;
+		left:0px;
+		right:0px;
+		background: radial-gradient(ellipse at center, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 26%, rgba(44,44,44,1) 52%, rgba(0,0,0,1) 98%, rgba(71,71,71,1) 100%);
+}	
+
+
+	

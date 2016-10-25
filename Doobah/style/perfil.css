@@ -1,0 +1,43 @@
+/*Seccion de Perfil*/
+  #perfil{
+  	  border-color: #DC143C;
+  }
+    
+  #perfil legend{
+    background: #DC143C;
+	  	 border-color: #DC143C;
+  }
+  
+  #perfil div a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom:0px;
+    color: #000; 
+	font-size: 15px;
+  }
+  #perfil input{
+    width: 100%;
+  }
+
+  #informacionUser{
+	float:left;
+	width:250px;
+  }
+  
+   #informacionUser #gruposUser{
+		margin-left:50px;
+	}
+	#popC{
+		position:absolute;
+		background-image: url(../img/transparente.png);
+		text-align: left;
+		z-index:101;
+		border-radius: 3px;
+		box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+		transition: 0.4s ease-out;
+		opacity: 1;
+		top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+		left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+		margin-top: -200px; /* Restamos la mitad de la altura del objeto con un margin-top */
+		margin-left: -300px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+	}

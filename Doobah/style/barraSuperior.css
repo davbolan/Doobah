@@ -1,0 +1,125 @@
+
+#barraSuperior{
+	width: 100%;
+	height: 50px;	
+	margin-top: 20px;
+}
+body {
+	background:#FFFFFF;
+	font-family: "RobotoDraft",sans-serif;
+	font-size:12px;
+	height:100%;
+	margin: 0px;
+}
+#breadcrumb{
+	margin-left: 20px;
+	float: left;
+}
+
+#breadcrumb ul {
+	list-style: none;
+	display: inline;
+}
+	#breadcrumb ul li {
+		display: inline;
+	}
+	
+	/* 
+		Si tengo "padding: TOPpx RIGHTpx BOTTOMpx LEFTpx";
+		y se cambia el RIGHTpx y BOTTOMpx tambien hay que cambiar los px en after y before
+	*/
+	#breadcrumb ul li a {
+		display: block;
+		float: left;
+		height: 10px;
+		background: #3498db;
+		text-align: center;
+		padding: 5px 20px 15px 20px;  		
+		position: relative;
+		margin: 0 10px 0 0;
+		font-size: 15px;
+		text-decoration: none;
+		color: #fff;
+	}
+		/*
+			cambiar todos los valores de px (los 4 deben tener el mismo valor)
+		*/
+		#breadcrumb ul li a:after {
+			content: "";  
+			border-top: 15px solid transparent;				
+ 			border-bottom: 15px solid transparent;
+  			border-left: 15px solid #3498db;
+			position: absolute; right: -15px; top: 0;
+			z-index: 1;
+		}
+		
+		/*
+			cambiar todos los valores de px (los 4 deben tener el mismo valor)
+		*/
+		#breadcrumb ul li a:before {
+			content: "";  
+			border-top: 15px solid transparent;
+  			border-bottom: 15px solid transparent;
+  			border-left: 15px solid white;
+			position: absolute; left: 0; top: 0;
+		}
+
+			#breadcrumb ul li:first-child a {
+				border-top-left-radius: 10px; 
+				border-bottom-left-radius: 10px;
+			}
+			#breadcrumb ul li:first-child a:before {
+				display: none; 
+			}
+			
+			#breadcrumb ul li:last-child a {
+				padding-right: 50px;
+				border-top-right-radius: 10px; 
+				border-bottom-right-radius: 10px;
+			}
+			#breadcrumb ul li:last-child a:after {
+				display: none; 
+			}
+		
+		#breadcrumb ul li a:hover {
+			background: #fa5ba5;
+		}
+			#breadcrumb ul li a:hover:after {
+				border-left-color: #fa5ba5;
+			}
+
+#nuevaActividad{
+	margin: 0px;
+	margin-right: 0px;
+	float: right;
+}
+
+#nuevoGrupo{
+	margin: 0px;
+	margin-right: 100px;
+	float: right;
+}
+
+#nuevoAnun{
+	margin: 0px;
+	margin-right: 100px;
+	float: right;
+}
+
+#actividades{
+	margin: 0px;
+
+	float: right;
+}
+
+#botonGrupo, #botonActividad, #botonActividades{
+	text-decoration:none; 
+	text-align:center; 
+	padding:11px 7px; 
+	border:none; 
+	border-radius: 11px; 
+	font-weight:bold; 
+	color:#f4f7f7; 
+	background:#3c60d6; 
+	box-shadow:0px 0px 2px #bababa;  
+  }
